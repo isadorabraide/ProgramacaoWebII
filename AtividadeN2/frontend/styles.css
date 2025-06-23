@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button.change-password {
+    background-color: #3498db;
+    color: white;
+}
+
+button.list {
+    background-color: #2ecc71;
+    color: white;
+}
+
+button.search {
+    background-color: #f39c12;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
