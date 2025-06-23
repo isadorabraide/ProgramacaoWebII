@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gerenciamento de Usuários</h1>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar por nome">
+        <button onclick="searchUsers()">Buscar</button>
+        <button onclick="loadUsers()">Listar Todos</button>
+    </div>
+
+    <div class="create-box">
+        <h3>Cadastrar Novo Usuário</h3>
+        <input type="text" id="name" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="createUser()">Cadastrar</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="userTable">
+            <!-- Conteúdo da tabela -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
